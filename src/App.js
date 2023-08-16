@@ -3,6 +3,18 @@ import './App.css';
 import Nav from'./components/Nav';
 import RouteList from './components/RouteList';
 
+/** RouteList
+ *
+ * state: none
+ *
+ * props:
+ *      - dogs: [ {name, src, age, facts[]} ]
+ * 
+ * Includes defaultProps.
+ *
+ * App -> RouteList
+ */
+
 function App({dogs}) {
 
   return (
@@ -15,6 +27,7 @@ function App({dogs}) {
   );
 }
 
+// Default props for App to use
 App.defaultProps = {
   "dogs": [
       {
