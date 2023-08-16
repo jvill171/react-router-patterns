@@ -1,0 +1,31 @@
+/* Nav container */
+.Nav {
+    background-color:slateblue;
+    overflow: hidden;
+}
+
+/* Nav list */
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Nav list items */
+.Nav li {
+    margin: 0;
+    padding: 0;
+    padding: 15px 20px;
+}
+
+/* Nav links */
+.Nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.Nav a:hover {
+    background-color: hsl(248, 80%, 58%);
+}

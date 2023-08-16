@@ -1,0 +1,21 @@
+.DogDetails{
+    margin: auto;
+}
+
+
+.DogDetails .about h4{
+    margin: 0;
+}
+
+.DogDetails .about ul{
+    margin: 0 0 20px 0;
+}
+
+.DogDetails img{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 500px;
+    max-width: 70vw;
+    min-width: 200px;
+    
+}
